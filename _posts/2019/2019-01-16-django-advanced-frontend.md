@@ -1,6 +1,5 @@
 ---
 title: Advanced frontend tips with Django
-author: Florian Courgey
 layout: post
 categories: [opensource,linux,server,python,django]
 date: 2019-01-16 13:31:16

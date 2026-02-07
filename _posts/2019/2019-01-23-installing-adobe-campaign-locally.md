@@ -247,18 +247,18 @@ Each instance is defined in `/usr/local/neolane/nl6/conf/conf-{instance-name}.xm
 Download [the example of postgresql-nldb.sql](/assets/adobe-campaign/postgresql-nldb.sql).
 
 ### Update the Db 2/2
-1. First import: core schema [db.sql](https://gist.github.com/floriancourgey/14fa97cbd691f71b6bf941f0dc2c5d2d) (This file can be found in your Support Download Center)
+1. First import: core schema [db.sql](https://gist.github.com/myrosblog/14fa97cbd691f71b6bf941f0dc2c5d2d) (This file can be found in your Support Download Center)
 ```console
 $ psql -U dbuser1 -d dbuser1  -h localhost -f adobe-campaign-install-db.sql
 ```
-1. Second import: public procedures [update.sql](https://gist.github.com/floriancourgey/56af2f0fc8b3d5d549490772655aadf5) (See Appendix to generate this file)
+1. Second import: public procedures [update.sql](https://gist.github.com/myrosblog/56af2f0fc8b3d5d549490772655aadf5) (See Appendix to generate this file)
 ```console
 $ psql -U dbuser1 -d dbuser1  -h localhost -f adobe-campaign-update.sql
 $ nlserver package -verbose -instance:instance1 -import:xtk/eng/package/core.xml
 $ psql -U dbuser1 -d dbuser1 -h localhost -f ./xtk/fra/sql/postgresql-nldb.sql
 $ nlserver package -verbose -instance:instance1 -import:nl/postupgrade.xml
 ```
-*Note: I also had to `DROP` `xtksessioninfo`, then re-create manually with [this script](https://gist.github.com/floriancourgey/4439ee67487b729fcebb6376aec9e30d).*
+*Note: I also had to `DROP` `xtksessioninfo`, then re-create manually with [this script](https://gist.github.com/myrosblog/4439ee67487b729fcebb6376aec9e30d).*
 
 
 

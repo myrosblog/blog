@@ -1,16 +1,15 @@
-title: Blog by Florian Courgey
-email: blog@floriancourgey.com
+title: Blog by Myros
 description: >- # this means to ignore newlines until "baseurl:"
   Curated list of tech tutorials on a wide variety of topics including PrestaShop,
   Adobe Campaign, Symfony, Angular, Django and much more!
 baseurl: "" # the subpath of your site, e.g. /blog
-url: https://blog.floriancourgey.com
+url: https://myrosblog.com
 permalink: /:year/:month/:title
 
 # custom manifest.json
 manifest:
-  name: "Blog floriancourgey.com"
-  short_name: "Blog fc.com"
+  name: "Blog Myros"
+  short_name: "Myros"
   theme_color: "#2196f3"
   background_color: "#2196f3"
   display: "browser"
@@ -18,7 +17,7 @@ manifest:
   start_url: "/"
 
 disqus:
-  shortname: floriancourgey
+  shortname: myrosblog
 
 gtm: GTM-W6RKLQQ
 
@@ -37,14 +36,12 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      author: "Florian Courgey"
       toc: true
   - scope:
       path: ""
       type: "drafts"
     values:
       layout: "post"
-      author: "Florian Courgey"
       toc: true
   - scope:
       path: ""

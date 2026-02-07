@@ -1,6 +1,5 @@
 ---
 title: Create a Search in Jekyll [Part 2/2]
-author: Florian Courgey
 layout: post
 categories:
   - jekyll
@@ -30,9 +29,9 @@ This feature consists of creating a JSON object with all pages and posts with Je
   {% endfor %}
 ]
 ```{% endraw %}
-*See source [https://github.com/floriancourgey/blog/blob/master/search.json](https://github.com/floriancourgey/blog/blob/master/search.json)*
+*See source [https://github.com/myrosblog/blog/blob/master/search.json](https://github.com/myrosblog/blog/blob/master/search.json)*
 
-The file is immediately available at [https://blog.floriancourgey.com/search.json](https://blog.floriancourgey.com/search.json).
+The file is immediately available at [/search.json](/search.json).
 
 Now each time the site is built, a search.json is created, containing every post along with its title, url, categories and tags.
 

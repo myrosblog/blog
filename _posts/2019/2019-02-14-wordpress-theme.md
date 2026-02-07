@@ -26,14 +26,14 @@ A theme needs to live in `/wp-content/my-theme-name/` and to contain at least `s
 ```css
 /*
 Mandatory
- Theme Name:   Florian Courgey WP Template
+ Theme Name:   Myros WP Template
  Template:     twentyeighteen
 
 Optional
- Theme URI:    http://blog.floriancourgey.com/2019/02/wordpress-theme
+ Theme URI:    http://myrosblog.com/2019/02/wordpress-theme
  Description:  Wordpress Child Theme Template by fc.com
- Author:       Florian Courgey
- Author URI:   http://floriancourgey.com
+ Author:       Myros
+ Author URI:   http://myrosblog.com
  Version:      1.0.0
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html

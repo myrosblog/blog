@@ -10,13 +10,13 @@ Set up a small software in a VM (or your own PC) to backup your Adobe instances 
 
 
 ### Explore Files and Folders via a web UI
-![](https://raw.githubusercontent.com/floriancourgey/adobe-campaign-sync/master/doc/Instance%20git%20repo%20-%20schemas.jpg)
+![](https://raw.githubusercontent.com/myrosblog/adobe-campaign-sync/master/doc/Instance%20git%20repo%20-%20schemas.jpg)
 
 ### Track the smallest change via Git Diff
-![](https://raw.githubusercontent.com/floriancourgey/adobe-campaign-sync/master/doc/Instance%20git%20repo%20-%20difference.jpg)
+![](https://raw.githubusercontent.com/myrosblog/adobe-campaign-sync/master/doc/Instance%20git%20repo%20-%20difference.jpg)
 
 ## Architecture
-![](https://raw.githubusercontent.com/floriancourgey/adobe-campaign-sync/master/doc/Presentation.jpg)
+![](https://raw.githubusercontent.com/myrosblog/adobe-campaign-sync/master/doc/Presentation.jpg)
 
 ## Instructions
 
@@ -34,7 +34,7 @@ Example from Linux VM environment:
 
 ```bash
 $ pwd # /home/user
-$ git clone https://github.com/floriancourgey/adobe-campaign-sync myinstance-prod # 1 folder per instance
+$ git clone https://github.com/myrosblog/adobe-campaign-sync myinstance-prod # 1 folder per instance
 $ cd myinstance-prod
 # if behind a corporate firewall, set HTTP proxy
 $ npm config set proxy http://x.x.x.x:port
@@ -63,7 +63,7 @@ $ crontab -e
 */15 * * * * cd ~/myinstance-prod && node src/download.js && cd instance && git add . && git commit -m "$(date +%Y-%m-%d_%H:%M:%S)" && git push
 ```
 
-Source code on [github.com/floriancourgey/adobe-campaign-sync](https://github.com/floriancourgey/adobe-campaign-sync)
+Source code on [github.com/myrosblog/adobe-campaign-sync](https://github.com/myrosblog/adobe-campaign-sync)
 
 ### Multi-instance setup
 

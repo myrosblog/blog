@@ -11,7 +11,7 @@ Have you ever wanted to modify an order or an invoice directly in Prestashop? Ti
 
 <!-- more -->
 
-> You can also view this [tuto to completely customize an Admin Controller from scratch, with your Custom SQL Table](https://floriancourgey.com/2018/05/create-an-admin-for-a-customized-sql-table/)
+> You can also view this [tuto to completely customize an Admin Controller from scratch, with your Custom SQL Table](/2018/05/create-an-admin-for-a-customized-sql-table/)
 
 ![](/assets/images/2018/04/Image-17.png)
 
@@ -42,7 +42,7 @@ class Fc_Invoice extends Module {
     $this->name = 'fc_invoice';
     $this->tab = 'administration';
     $this->version = '1.0.0';
-    $this->author = 'Florian Courgey';
+    $this->author = 'Myros';
     $this->bootstrap = true;
     parent::__construct();
     $this->displayName = $this->l('FC Invoice Module');
@@ -269,7 +269,7 @@ This new code will add buttons to delete via one-shot and bulk:
 
 ## Full version of the Code
 
-Hosted on <a href="https://gist.github.com/floriancourgey/cb63fd5abd93e1109fcf624a68307403">https://gist.github.com/floriancourgey/cb63fd5abd93e1109fcf624a68307403</a>
+Hosted on <a href="https://gist.github.com/myrosblog/cb63fd5abd93e1109fcf624a68307403">https://gist.github.com/myrosblog/cb63fd5abd93e1109fcf624a68307403</a>
 
 
 Mobile and responsive version:

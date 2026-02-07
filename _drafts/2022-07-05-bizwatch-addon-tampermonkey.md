@@ -5,7 +5,6 @@
 // ==UserScript==
 // @name         FCO Bizwatch Addon
 // @version      0.20190902
-// @author       Florian Courgey
 // @match        http://srvw9030/*
 // @match        http://srvw9025/*
 // @grant        GM_addStyle

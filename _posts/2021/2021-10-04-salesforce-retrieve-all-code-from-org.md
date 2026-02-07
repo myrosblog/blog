@@ -21,7 +21,7 @@ VS Code `Output` tab will show:
 Starting SFDX: Authorize an Org
 
 15:11:51.709 sfdx force:auth:web:login --setalias myorg --instanceurl https://myorg.my.salesforce.com --setdefaultusername
-Successfully authorized fcourgey@example.com with org ID 0000000000000000
+Successfully authorized myrosblog@example.com with org ID 0000000000000000
 You may now close the browser
 15:12:12.217 sfdx force:auth:web:login --setalias myorg --instanceurl https://myorg.my.salesforce.com --setdefaultusername
  ended with exit code 0

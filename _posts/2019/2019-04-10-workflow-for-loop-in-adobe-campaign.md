@@ -67,7 +67,7 @@ At the end of the loop, a simple `vars.index++;` gets the job done!
 
 ```console
 Workflow 'WKF999' is being run
-Workflow restarted (operator 'Florian Courgey')
+Workflow restarted (operator 'Myros')
 js3	Current index: 0, current value: France
 js3	Current index: 1, current value: Spain
 js3	Current index: 2, current value: UK

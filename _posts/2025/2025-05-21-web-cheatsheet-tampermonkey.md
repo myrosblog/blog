@@ -17,7 +17,7 @@ Web tools
 // @namespace    http://tampermonkey.net/
 // @version      1.1.0
 // @description  xx
-// @author       Florian Courgey
+// @author       Myros
 // @match        https://www.qwant.com/*
 // @icon         https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Qwant_new_logo_2018.svg/250px-Qwant_new_logo_2018.svg.png
 // @grant        GM_addStyle

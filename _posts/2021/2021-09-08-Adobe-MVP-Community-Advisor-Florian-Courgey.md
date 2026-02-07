@@ -20,13 +20,13 @@ I've helped many Business & Personal customers in any way I could during the pas
 
 After many posts, answers & ideas, my profile is now listed among Advisors from different Tech Companies such as Expedia, Vimeo and Capegemini:
 
-![Florian Courgey at LVMH as a 2021 Adobe Community Advisors](/assets/images/2021/adobe-mvp-community-advisor-post.jpg)
+![Myros at LVMH as a 2021 Adobe Community Advisors](/assets/images/2021/adobe-mvp-community-advisor-post.jpg)
 
 *Source: [Adobe blog: Introducing the 2021 Adobe Community Advisors](https://blog.adobe.com/en/publish/2021/09/02/introducing-the-2021-adobe-community-advisors.html)*
 
 I'm also featured on the Experience League Community Advisors Page on Paris/New York Location across EMEA:
 
-![Florian Courgey in EMEA on Experience League](/assets/images/2021/adobe-mvp-community-advisor-experience.png)
+![Myros in EMEA on Experience League](/assets/images/2021/adobe-mvp-community-advisor-experience.png)
 
 *Source: [Adobe Experience: Welcome to the Community Advisors Program](https://experienceleaguecommunities.adobe.com/t5/custom/page/page-id/communityadvisors)*
 
@@ -50,7 +50,7 @@ Part of this exciting new role is the Status of a true Digital Influencer! I was
 
 ![The Nordace backpack with its charging port to a Macbook](/assets/images/2021/adobe-mvp-nordace-backpack-mac.jpg)
 
-![Yes, it has been shipped directly to my mailbox](/assets/images/2021/adobe-shipping-to-Florian-Courgey.jpg)
+![Yes, it has been shipped directly to my mailbox](/assets/images/2021/adobe-shipping-to-myrosblog.jpg)
 
 
 

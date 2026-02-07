@@ -2,7 +2,6 @@
 id: 1020
 title: Get the content of your serverConf.xml in Adobe Campaign
 date: 2018-10-15T14:39:53+00:00
-author: Florian Courgey
 layout: post
 permalink: /2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/
 categories:
@@ -45,7 +44,7 @@ logInfo(result[1]);
 function execCommand (command [, bNoThrow=false ])
 ```
 
-See more JS commands [in this tutorial](https://floriancourgey.com/2018/08/find-a-file-on-the-server-of-adobe-campaign/)
+See more JS commands [in this tutorial](/2018/08/find-a-file-on-the-server-of-adobe-campaign/)
 
 ## Sample of serverConf.xml
 

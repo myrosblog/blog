@@ -34,7 +34,7 @@ Let's fix it!
 ```javascript
 <%@ include option='NmsTracking_ClickFormula' %>
 <%
-var pattern = /(blog\.floriancourgey\.com|targetData)/i;
+var pattern = /(blog\.myrosblog\.com|targetData)/i;
 if( $(urlstring).match(pattern) ){
 %>
 &utm_source=newsletter&utm_medium=email&utm_campaign=<%= message.delivery.internalName %>

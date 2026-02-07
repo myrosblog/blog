@@ -87,4 +87,4 @@ apm install pigments
 sudo sed -i '/--launcher.appendVmargs/ i \--launcher.GTK_version\n2' /opt/eclipse/eclipse.ini
 ```
 
-from [https://gist.github.com/floriancourgey/c7d9af45360bd6832da61198373b7e82](https://gist.github.com/floriancourgey/c7d9af45360bd6832da61198373b7e82)
+from [https://gist.github.com/myrosblog/c7d9af45360bd6832da61198373b7e82](https://gist.github.com/myrosblog/c7d9af45360bd6832da61198373b7e82)

@@ -2,9 +2,7 @@
 id: 434
 title: 'Constants and variables for Prestashop 1.7 [PHP, Smarty, Javascript, Twig]'
 date: 2018-04-25T21:27:05+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=434
 permalink: /2018/04/constants-and-variables-for-prestashop/
 categories:
   - prestashop

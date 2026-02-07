@@ -113,7 +113,7 @@ function execute(hasProxy=false, async=false, context=null, timeout=300000)
 
 ```js
 // get records from previous transition
-var query = NLWS.xtkQueryDef.create({queryDef:{ [...] }}); // @see https://blog.floriancourgey.com/2018/08/use-querydef-the-database-toolkit-in-adobe-campaign#select-raw-data-from-workflow-transition
+var query = NLWS.xtkQueryDef.create({queryDef:{ [...] }}); // @see /2018/08/use-querydef-the-database-toolkit-in-adobe-campaign#select-raw-data-from-workflow-transition
 var records = query.ExecuteQuery().getElements();
 
 var successRequests = []; // used to store successfuly HttpClientRequest for "HttpClientRequest.wait(requests)"
@@ -161,4 +161,4 @@ HttpClientRequest.wait(requests);
 
 See [JSAPI execute](https://docs.campaign.adobe.com/doc/AC/en/jsapi/m-HttpClientRequest-execute.html) reference
 
-See this [tutorial to install JS library](https://floriancourgey.com/2018/10/use-javascript-libraries-in-adobe-campaign/) such as underscore or Moment JS in Adobe Campaign.
+See this [tutorial to install JS library](/2018/10/use-javascript-libraries-in-adobe-campaign/) such as underscore or Moment JS in Adobe Campaign.

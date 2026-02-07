@@ -126,7 +126,7 @@ request.setEndpoint('https://xxx.rest.marketingcloudapis.com/messaging/v1/email/
 request.setMethod('POST');
 request.setHeader('Authorization', 'Bearer '+access_token);
 request.setHeader('Content-Type', 'application/json');
-body = '{  "definitionKey": "Auto_WW_DoubleOptinQRCode",  "recipients": [{      "contactKey": "0034H00002ZiYo5QAF",      "to": "fcourgey20220818b@yopmail.com",      "attributes": {        "FirstName": "John",        "LastName": "Doe"      }  }]}';
+body = '{  "definitionKey": "Auto_WW_DoubleOptinQRCode",  "recipients": [{      "contactKey": "0034H00002ZiYo5QAF",      "to": "myrosblog20220818b@yopmail.com",      "attributes": {        "FirstName": "John",        "LastName": "Doe"      }  }]}';
 request.setBody(body);
 response = http.send(request);
 System.debug(response.getBody());

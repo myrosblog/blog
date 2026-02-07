@@ -2,9 +2,7 @@
 id: 406
 title: Debug Admin controller errors in PrestaShop 1.7
 date: 2018-04-23T20:54:04+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=406
 permalink: /2018/04/debug-admin-controller-errors-in-prestashop-1-7/
 categories:
   - opensource

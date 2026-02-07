@@ -2,9 +2,7 @@
 id: 705
 title: Use Helper Form and helper/form.tpl in Prestashop 1.7
 date: 2018-07-02T16:50:40+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=705
 permalink: /2018/07/use-helperform-and-helper-form-tpl-in-prestashop-1-7/
 categories:
   - opensource

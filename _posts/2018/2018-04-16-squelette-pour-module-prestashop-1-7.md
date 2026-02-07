@@ -26,7 +26,7 @@ class Fc_Redirect extends Module {
       $this->name = 'fc_redirect';
       $this->tab = 'administration';
       $this->version = '1.0.0';
-      $this->author = 'Florian Courgey';
+      $this->author = 'Myros';
       $this->bootstrap = true;
       parent::__construct();
       $this->displayName = $this->l('PrestaShop Redirect by FC');

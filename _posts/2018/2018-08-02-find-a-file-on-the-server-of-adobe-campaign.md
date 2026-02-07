@@ -2,9 +2,7 @@
 id: 901
 title: Find a file on the server of Adobe Campaign
 date: 2018-08-02T18:46:16+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=901
 permalink: /2018/08/find-a-file-on-the-server-of-adobe-campaign/
 tinymce-comment-field_enabled:
   - "1"
@@ -90,4 +88,4 @@ exec('cp /etc/apache2/apache2.conf /sftp/[...]/', true) // copy to your ftp
 exec("cat /etc/apache2/envvars > /sftp/[...]/", true) // echo to a file
 ```
 
-Also, you can get the content of you serverConf.xml with [this tutorial](https://floriancourgey.com/2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/)
+Also, you can get the content of you serverConf.xml with [this tutorial](/2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/)

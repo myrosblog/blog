@@ -56,7 +56,7 @@ In short you have the following:
   - `spin.js 2.3.2`
   - `JSON2 polyfill`
 - A Google analytics easy set up, to capture traffic
-- Use a global option for the Adobe Campaign Resources CDN, see <a href="https://floriancourgey.com/2018/08/modern-web-development-in-adobe-campaign/#a-create-a-global-option-resource_url">below</a>
+- Use a global option for the Adobe Campaign Resources CDN, see <a href="/2018/08/modern-web-development-in-adobe-campaign/#a-create-a-global-option-resource_url">below</a>
 
 ## Organize your assets
 

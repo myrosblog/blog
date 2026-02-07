@@ -1,6 +1,5 @@
 ---
 title: Git commit naming
-author: Florian Courgey
 layout: post
 categories:
   - opensource

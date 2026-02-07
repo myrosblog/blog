@@ -1,6 +1,5 @@
 ---
 title: HTTP Post for Adobe Campaign SOAP calls and queryDef from client-side
-author: Florian Courgey
 layout: post
 categories: [opensource,adobe campaign]
 ---

@@ -86,7 +86,7 @@ Install the [Node red slack module](https://flows.nodered.org/node/node-red-cont
 npm install node-red-contrib-slack
 ```
 
-Make sure you have a webhook configured on your slack, i.e. [https://my_instance.slack.com/apps/manage/custom-integrations](https://floriancourgey.slack.com/apps/manage/custom-integrations):
+Make sure you have a webhook configured on your slack, i.e. [https://my_instance.slack.com/apps/manage/custom-integrations](https://myrosblog.slack.com/apps/manage/custom-integrations):
 ![todo](/assets/images/2018/11/slack-webhook-config.png)
 
 And use the `slack` node with the correct Webhook URL:

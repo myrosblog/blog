@@ -28,7 +28,7 @@ getCurrentDate()
 ## MomentJS external library
 ```js
 // load lib
-loadLibrary('vendor:moment'); // @see https://blog.floriancourgey.com/2018/10/use-javascript-libraries-in-adobe-campaign/
+loadLibrary('vendor:moment'); // @see https://myrosblog.com/2018/10/use-javascript-libraries-in-adobe-campaign/
 vars.yesterday = moment().subtract(1, 'day').format('YYYY-MM-DD'); // yesterday July 1st 2020
 var today = moment(); // today July 2nd 2020
 vars.lastDayOfMonth = (today.clone().endOf('month')).format('YYYY-MM-DD HH:mm:ss'); // July 31st 2020

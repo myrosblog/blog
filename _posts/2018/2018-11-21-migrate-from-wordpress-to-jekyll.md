@@ -22,7 +22,7 @@ Just push to a Github repo on the `master` branch, and enable Pages on Gihtub in
 1. Activate it in the repo settings, it's going to create a `CNAME` file with your custom domain:
 
 2. Then, in your hosting provider DNS settings (such as [OVH](https://www.ovh.co.uk/domains/)), configure a CNAME DNS entry with your github.io URL:
-![todo](/assets/images/2018/11/ovh-dns-blog-floriancourgey-com.jpg)
+![todo](/assets/images/2018/11/ovh-dns-blog-myrosblog-com.jpg)
 
 PS: For HTTPS it's [automatic since 2016](https://help.github.com/articles/securing-your-github-pages-site-with-https/), it might take up to a day to propagate. Be sure to enable this option in the repo settings.
 
@@ -30,12 +30,12 @@ PS: For HTTPS it's [automatic since 2016](https://help.github.com/articles/secur
 I used [https://wordpress.org/plugins/jekyll-exporter/](https://wordpress.org/plugins/jekyll-exporter/).
 
 ## Edit Server config for redirects
-Posts on old wordpress site were hosted on https://floriancourgey.com/2018/01/title-here, but now they are hosted on https://blog.floriancourgey.com/2018/01/title-here
+Posts on old wordpress site were hosted on https://myrosblog.com/2018/01/title-here, but now they are hosted on https://blog.myrosblog.com/2018/01/title-here
 
 A quick Nginx rule did the trick, to ensure backward compatibility:
 ```nginx
 location ~ ^/2018 {
-	rewrite ^ https://blog.floriancourgey.com$request_uri? permanent;
+	rewrite ^ https://blog.myrosblog.com$request_uri? permanent;
 }
 ```
 
@@ -60,7 +60,7 @@ I also added this bit at the top and the bottom of each post, in order to displa
   {% unless forloop.last %}&nbsp;{% endunless %}
 {% endfor %}
 ```{% endraw %}
-*See [https://github.com/floriancourgey/blog/blob/master/_layouts/post.html](https://github.com/floriancourgey/blog/blob/master/_layouts/post.html)*
+*See [https://github.com/myrosblog/blog/blob/master/_layouts/post.html](https://github.com/myrosblog/blog/blob/master/_layouts/post.html)*
 
 Noticed the `/categories?id=` part? With a bit of javascript, we are able to display a specific category:
 ![todo](/assets/images/2018/11/jekyll-display-categories-by-id.jpg)
@@ -75,7 +75,7 @@ if(location.search.match(/id=([^&]*)/i)){
   }
 }
 ```
-*See [https://github.com/floriancourgey/blog/blob/master/categories.html](https://github.com/floriancourgey/blog/blob/master/categories.html)*
+*See [https://github.com/myrosblog/blog/blob/master/categories.html](https://github.com/myrosblog/blog/blob/master/categories.html)*
 
 ### Add Previous/Next
 `_layouts/post.html`
@@ -109,11 +109,11 @@ Disqus
 User-agent: *
 Sitemap: {{ site.url }}/sitemap.xml
 ```
-*See [https://github.com/floriancourgey/blog/blob/master/robotx.txt](https://github.com/floriancourgey/blog/blob/master/robotx.txt)*
+*See [https://github.com/myrosblog/blog/blob/master/robotx.txt](https://github.com/myrosblog/blog/blob/master/robotx.txt)*
 
 ### Add the "Improve this page" link
 ```html
-<a href="https://github.com/floriancourgey/blog/edit/master/{{ page.path }}" target="_blank">Improve this page</a>
+<a href="https://github.com/myrosblog/blog/edit/master/{{ page.path }}" target="_blank">Improve this page</a>
 ```
 
 ## Migrate HTML to Markdown

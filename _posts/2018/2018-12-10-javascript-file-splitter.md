@@ -1,6 +1,5 @@
 ---
 title: Javascript File Splitter
-author: Florian Courgey
 layout: post
 categories:
   - javascript
@@ -86,7 +85,7 @@ splitFile(options);
  * 
  * with params occurence="A", times=2
  */
-loadLibrary('vendor:underscore'); // see https://blog.floriancourgey.com/2018/10/use-javascript-libraries-in-adobe-campaign/
+loadLibrary('vendor:underscore'); // see https://myrosblog.com/2018/10/use-javascript-libraries-in-adobe-campaign/
 
 const TAG = 'nms:fileSplitter | ';
 
@@ -166,7 +165,7 @@ function splitFile(options){
 }
 ```
 
-NB: to include underscoreJS library, see [https://blog.floriancourgey.com/2018/10/use-javascript-libraries-in-adobe-campaign/](https://blog.floriancourgey.com/2018/10/use-javascript-libraries-in-adobe-campaign/)
+NB: to include underscoreJS library, see [https://myrosblog.com/2018/10/use-javascript-libraries-in-adobe-campaign/](https://myrosblog.com/2018/10/use-javascript-libraries-in-adobe-campaign/)
 
 ## Polyfills for `padStart()` in Adobe Campaign
 Note: to make it work with Adobe Campaign, add the following polyfills for `padStart()` in `nms:polyfill`:

@@ -144,8 +144,8 @@ function removeCarriageReturn(fileFullpath, params){
 
 /**
  * Helper for the ACC execCommand() function
- * @author Florian Courgey
- * Documentation {@link https://blog.floriancourgey.com/2019/03/adobe-campaign-helpers}
+ * @author Myros
+ * Documentation {@link https://myrosblog.com/2019/03/adobe-campaign-helpers}
  * @version 1.0.0 
  * @param {string} command the linux command to execute
  * @param {object} params

@@ -2,9 +2,7 @@
 id: 993
 title: Module Login as customer in Prestashop 1.6, 1.7
 date: 2018-09-11T00:33:28+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=993
 permalink: /2018/09/module-login-as-customer-in-prestashop-1-6-1-7/
 categories:
   - github
@@ -36,7 +34,7 @@ class Fc_LoginAsCustomer extends Module {
     $this->name = 'fc_loginascustomer';
     $this->tab = 'back_office_features';
     $this->version = '1.0.0';
-    $this->author = 'Florian Courgey';
+    $this->author = 'Myros';
     $this->controllers = ['login'];
 
     $this->bootstrap = true;

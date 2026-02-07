@@ -2,9 +2,7 @@
 id: 409
 title: Controller lifecycle in PrestaShop 1.7
 date: 2018-04-24T18:20:19+00:00
-author: Florian Courgey
 layout: post
-guid: https://floriancourgey.com/?p=409
 permalink: /2018/04/controller-lifecycle-in-prestashop-1-7/
 categories:
   - prestashop

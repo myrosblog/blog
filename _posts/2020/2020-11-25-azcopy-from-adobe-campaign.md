@@ -26,7 +26,7 @@ Use the following code:
 ```js
 function azcopy(command){
   var azcopyPath = '/home/customers/instance_name/incoming/bin/azcopy_linux_amd64_10.7.0/azcopy'; // change with your actual path
-  var result = execCommand(azcopyPath+' '+command, true); // @return [linux result code, output] @see https://blog.floriancourgey.com/2019/03/adobe-campaign-helpers
+  var result = execCommand(azcopyPath+' '+command, true); // @return [linux result code, output] @see https://myrosblog.com/2019/03/adobe-campaign-helpers
   for each (var line in result[1].split('\n')){ 
       logInfo(''+line); // display output
   }
@@ -103,7 +103,7 @@ Create a Javascript code `fco:helpers` and add the following:
 ```js
 function azcopy(command){
   var azcopyPath = '/home/customers/instance_name/incoming/bin/azcopy_linux_amd64_10.7.0/azcopy'; // change with your actual path
-  var result = execCommand(azcopyPath+' '+command, true); // @return [linux result code, output] @see https://blog.floriancourgey.com/2019/03/adobe-campaign-helpers
+  var result = execCommand(azcopyPath+' '+command, true); // @return [linux result code, output] @see https://myrosblog.com/2019/03/adobe-campaign-helpers
   for each (var line in result[1].split('\n')){ 
       logInfo(''+line); // display output
   }

@@ -19,7 +19,7 @@ Once you have identified a particular website, change the URI to `/r/test`:
 ![todo](/assets/images/2020/adobe-campaign-google-dorks-r-test-build-number.jpg)
 
 ## More on Google Dorks
-[Crack & Hack cheatsheet#google](https://blog.floriancourgey.com/2018/12/crack-and-hack-cheatsheet#google)
+[Crack & Hack cheatsheet#google](https://myrosblog.com/2018/12/crack-and-hack-cheatsheet#google)
 
 ## List
 - [Jean-Paul Gaultier](http://t.crm.jeanpaulgaultier.com/r/test)

@@ -1,7 +1,7 @@
 # Repository for Jekyll on Github website https://myrosblog.com
 
-[![](https://travis-ci.com/floriancourgey/blog.svg?branch=master)](https://travis-ci.com/floriancourgey/blog)
-[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/floriancourgey/blog)
+[![](https://travis-ci.com/myrosblog/blog.svg?branch=master)](https://travis-ci.com/myrosblog/blog)
+[![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/myrosblog/blog)
 
 ## Install & run (docker)
 

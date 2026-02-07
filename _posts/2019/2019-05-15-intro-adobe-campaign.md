@@ -31,7 +31,7 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 - [Official workflow Use cases](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/use-cases/using-the-local-approval-activity.html) - Business cases
 - [Official workflow Best Practices](https://docs.adobe.com/content/help/en/campaign-classic/using/automating-with-workflows/general-operation/workflow-best-practices.html)
 - [Official Database Model Best Practices](https://docs.adobe.com/content/help/en/campaign-classic/using/configuring-campaign-classic/data-model/data-model-best-practices.html)
-- [floriancourgey.com tutorials](https://blog.floriancourgey.com/categories?id=adobe%20campaign)
+- [Myros tutorials](https://myrosblog.com/categories?id=adobe%20campaign)
 
 ## Workspace
 - [Browsing Lists](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/starting-with-adobe-campaign/adobe-campaign-workspace.html#browsing-lists) - Add/Remove a field in a list, count records, sort, search
@@ -66,13 +66,13 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 
 ## Javascript help
 - [Online Javascript API (JSAPI)](https://docs.adobe.com/content/help/en/campaign-classic/technicalresources/api/index.html)
-- [queryDef](https://blog.floriancourgey.com/2018/08/use-querydef-the-database-toolkit-in-adobe-campaign)
-- [Web apps](https://blog.floriancourgey.com/2018/07/use-the-context-in-web-apps-in-adobe-campaign)
-- [JSSP - Javascript Server Pages](https://blog.floriancourgey.com/2018/11/create-jssp-dynamic-javascript-server-page-in-acc/)
+- [queryDef](https://myrosblog.com/2018/08/use-querydef-the-database-toolkit-in-adobe-campaign)
+- [Web apps](https://myrosblog.com/2018/07/use-the-context-in-web-apps-in-adobe-campaign)
+- [JSSP - Javascript Server Pages](https://myrosblog.com/2018/11/create-jssp-dynamic-javascript-server-page-in-acc/)
 
 ## Server help
 - [serverConf.xml doc](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/appendices/the-server-configuration-file.html)
-- [serverConf.xml content](https://blog.floriancourgey.com/2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/)
+- [serverConf.xml content](https://myrosblog.com/2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/)
 - [SOAP API & web services](https://docs.adobe.com/content/help/en/campaign-classic/using/configuring-campaign-classic/api/about-web-services.html)
 - [WSDL doc](https://docs.adobe.com/content/help/en/campaign-classic/using/configuring-campaign-classic/api/web-service-calls.html#web-service-description--wsdl)
 - [Database cleanup task (cleanup workflow)](https://docs.adobe.com/content/help/en/campaign-classic/using/monitoring-campaign-classic/data-processing/database-cleanup-workflow.html)
@@ -114,7 +114,7 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 - [Official prerequisites](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/prerequisites-and-recommendations-/before-starting.html)
 - [Official install for Linux](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/installing-campaign-in-linux-/prerequisites-of-campaign-installation-in-linux.html)
 - [Official install for Windows](https://docs.adobe.com/content/help/en/campaign-classic/using/installing-campaign-classic/installing-campaign-in-windows-/prerequisites-of-campaign-installation-in-windows.html)
-- [Install by floriancourgey.com on Virtualbox](https://blog.floriancourgey.com/2019/01/installing-adobe-campaign-locally)
+- [Install by Myros on Virtualbox](https://myrosblog.com/2019/01/installing-adobe-campaign-locally)
 - [Compatibility matrix](https://helpx.adobe.com/campaign/kb/compatibility-matrix.html) - OS, web & database (RDBMS) servers, JDK  compatible versions
 
 ## Javascript Best Practices
@@ -125,7 +125,7 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 
 ## External tools
 - [Excel column to CSV with delim.co](https://delim.co/)
-- [Reverse Adobe Campaign log with FCO string tools](https://floriancourgey.github.io/tools/string/index.html)
+- [Reverse Adobe Campaign log with FCO string tools](https://myrosblog.github.io/tools/string/index.html)
 - [Compare 2 files with diffchecker](https://www.diffchecker.com)
 - [Rename multiple files with regex, prefixes, etc, with Bulk Rename Utility](https://www.bulkrenameutility.co.uk)
 - [SMS Length Calculator on messente.com](https://messente.com/documentation/tools/sms-length-calculator)

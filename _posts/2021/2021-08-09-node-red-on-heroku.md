@@ -13,7 +13,7 @@ Deploy instantly and for free an instance of NodeRed v2 for daily use and variou
 
 Use the following button to 1-click deploy an instance on heroku:
 
-<a href="https://heroku.com/deploy?template=https://github.com/floriancourgey/node-red-heroku" title="Deploy Node-Red to Heroku" target="_blank">
+<a href="https://heroku.com/deploy?template=https://github.com/myrosblog/node-red-heroku" title="Deploy Node-Red to Heroku" target="_blank">
     <img src="https://www.herokucdn.com/deploy/button.png" style="max-height:150px" class="no-lightgallery"/>
 </a>
 
@@ -41,7 +41,7 @@ Node-Red modules may be added via the `Menu`>`Manage Palette` link from the (Nod
 
 Example for the `lodash` library ([npm link](https://www.npmjs.com/package/lodash)).
 
-- Fork the root project [Fork floriancourgey/node-red-heroku](https://github.com/floriancourgey/node-red-heroku/fork)
+- Fork the root project [Fork myrosblog/node-red-heroku](https://github.com/myrosblog/node-red-heroku/fork)
 - Edit `package.json` by adding `lodash` to `dependencies`:
 ```js
 "dependencies": {

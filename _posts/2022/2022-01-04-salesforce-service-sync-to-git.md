@@ -35,7 +35,7 @@ $ sfdx force:project:create -n myinstance-repo # init sf project into repo
 $ cd myinstance-repo && git status
 $ mkdir manifest
 $ vim manifest/package.xml # create package
-get from https://blog.floriancourgey.com/2021/10/salesforce-retrieve-all-code-from-org
+get from https://myrosblog.com/2021/10/salesforce-retrieve-all-code-from-org
 $ git add . && git commit -m "sfdx project" && git push
 $ sfdx force:org:display -u myinstance_username --verbose --json
 {

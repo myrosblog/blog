@@ -1,4 +1,4 @@
-# Repository for Jekyll on Github website https://blog.floriancourgey.com
+# Repository for Jekyll on Github website https://myrosblog.com
 
 [![](https://travis-ci.com/floriancourgey/blog.svg?branch=master)](https://travis-ci.com/floriancourgey/blog)
 [![StackShare](https://img.shields.io/badge/tech-stack-0690fa.svg?style=flat)](https://stackshare.io/floriancourgey/blog)

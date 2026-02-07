@@ -64,7 +64,7 @@ var fields = {
 var log = false;
 insertInto(vars.tableName, fields, log);
 ```
-See my [Adobe Campaign helpers (SQL, string, XML, linux..)](/2019/03/adobe-campaign-helpers)
+See my [Adobe Campaign helpers (SQL, string, XML, linux..)]({% post_url 2019/2019-03-19-adobe-campaign-helpers %})
 
 ## Select multiple with `where` and `orderBy`
 
@@ -115,7 +115,7 @@ for each(var record in records.getElements()){
 
 *To avoid SQL injections, use bound parameters with $(). Types and doc can be found on [the online doc for sqlExec](https://docs.campaign.adobe.com/doc/AC/en/jsapi/f-sqlExec.html).*
 
-See this queryDef in action in the [Monitor your paused workflows](/2019/05/monitor-paused-workflows-adobe-campaign) business case.
+See this queryDef in action in the [Monitor your paused workflows]({% post_url 2019/2019-05-01-monitor-paused-workflows-adobe-campaign %}) business case.
 
 
 With Raw SQL table `vars.tableName`:

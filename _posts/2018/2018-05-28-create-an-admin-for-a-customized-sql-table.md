@@ -9,9 +9,9 @@ Prestashop has developed a great admin interface: data table, filters, edit/crea
 
 ![](/assets/images/2018/05/Admin-Controller-Cover.jpg)
 
-If you want to [edit an already existing Object such as your invoices, head over to this tutorial](/2018/04/admin-controller-in-module-prestashop-1-7/).
+If you want to [edit an already existing Object such as your invoices, head over to this tutorial]({% post_url 2018/2018-05-28-add-a-module-manually-with-prestashop-1-7 %}).
 
-This is the part 1 of a Series to customize Prestashop in depth. [Follow this link for the tutorial 2 about creating the Front Controller (Part 2/2)](/2018/04/how-to-create-a-new-front-controller-for-prestashop-1-7/).
+This is the part 1 of a Series to customize Prestashop in depth. [Follow this link for the tutorial 2 about creating the Front Controller (Part 2/2)]({% post_url 2018/2018-04-23-how-to-create-a-new-front-controller-for-prestashop-1-7 %}).
 
 <!--more-->
 
@@ -248,7 +248,7 @@ Refresh your page and you now have a fully working Form with a Custom Object:
 
 ![](/assets/images/2018/05/AdminController-Edit-is-now-working.jpg)
 
-Here we are!! There's still much to do, as adding new fields in the Edit Form (tuto coming soon) and display those pasta in a nice Front Controller for the customers to be able to see them, you can head over here [for the tutorial 2 about creating the Front Controller](/2018/04/how-to-create-a-new-front-controller-for-prestashop-1-7/).
+Here we are!! There's still much to do, as adding new fields in the Edit Form (tuto coming soon) and display those pasta in a nice Front Controller for the customers to be able to see them, you can head over here [for the tutorial 2 about creating the Front Controller]({% post_url 2018/2018-04-23-how-to-create-a-new-front-controller-for-prestashop-1-7 %}).
 
 
 ![Hooray!](https://i0.wp.com/uploads.disquscdn.com/images/3681964a5dbe8e4d3ca23796cfdeb66e137b3f46f16d82453437872e417e410f.jpg?w=525&#038;ssl=1)

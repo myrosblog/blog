@@ -44,7 +44,7 @@ logInfo(result[1]);
 function execCommand (command [, bNoThrow=false ])
 ```
 
-See more JS commands [in this tutorial](/2018/08/find-a-file-on-the-server-of-adobe-campaign/)
+See more JS commands [in this tutorial]({% post_url 2018/2018-08-02-find-a-file-on-the-server-of-adobe-campaign %})
 
 ## Sample of serverConf.xml
 

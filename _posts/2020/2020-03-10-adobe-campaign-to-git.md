@@ -21,7 +21,7 @@ Set up a small software in a VM (or your own PC) to backup your Adobe instances 
 ## Instructions
 
 ### Prerequisites
-- Basic linux knowledge (check [LINUX cheatshet](/2018/12/unix-cheatsheet) for help)
+- Basic linux knowledge (check [LINUX cheatshet]({% post_url 2018/2018-12-05-unix-cheatsheet %}) for help)
 - Basic Adobe Campaign knowledge (check [Awesome Adobe Campaign](/awesome-adobe-campaign)) for help)
 - Adobe Campaign Classic instance with admin username
 - Github.com account

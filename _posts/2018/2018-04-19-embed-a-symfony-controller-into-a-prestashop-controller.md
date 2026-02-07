@@ -21,7 +21,7 @@ URL > Tab > Controller > Prestashop static functions & raw DB calls via PDO > di
 
 ## Call symfony from a Prestashop Controller
 
-In you are on a Backoffice page, the symfony `global $kernel`  is always available. If you're on a Frontoffice page, you have to create it manually (see [this page on how to work with the symfony kernel in Prestashop](/2018/05/how-to-work-with-the-symfony-kernel-anywhere-in-prestashop-1-7/)):
+In you are on a Backoffice page, the symfony `global $kernel`  is always available. If you're on a Frontoffice page, you have to create it manually (see [this page on how to work with the symfony kernel in Prestashop]({% post_url 2018/2018-05-02-how-to-work-with-the-symfony-kernel-anywhere-in-prestashop-1-7 %})):
 
 ```php
 // for the front

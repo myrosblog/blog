@@ -8,7 +8,7 @@ Prestashop can be used to display any page that you want. Either it's pure HTML 
 
 ## Objective
 
-As we've already created [a nice backoffice for our pasta here](/2018/05/create-an-admin-for-a-customized-sql-table/), we would now like to display them on the Front office as a catalog. We will link a URL to a Front Controller which will be responsible to do a few database calls and then display the data through a Smarty Template.
+As we've already created [a nice backoffice for our pasta here]({% post_url 2018/2018-05-28-create-an-admin-for-a-customized-sql-table %}), we would now like to display them on the Front office as a catalog. We will link a URL to a Front Controller which will be responsible to do a few database calls and then display the data through a Smarty Template.
 
 The new URL will be `http://localhost/prestashop/my-pasta`.
 
@@ -164,7 +164,7 @@ You now have some templated data in your completely new Front Page:
 
 ![todo](/assets/images/2018/04/Pasta-displayed-with-templated-data-from-new-Front-Controller.jpg)
 
-More info on the `Db`/`DbQuery` classes in [Best Practices to use the Db class in Prestashop](/2018/04/use-db-the-database-class-in-prestashop-1-7/).
+More info on the `Db`/`DbQuery` classes in [Best Practices to use the Db class in Prestashop]({% post_url 2018/2018-04-24-use-db-the-database-class-in-prestashop-1-7 %}).
 
 ### 4.2 Redirect the customer if not logged (non-guest area)
 
@@ -187,7 +187,7 @@ Refresh your page, and you are being redirected to the login! Log in, and you wi
 
 ![todo](/assets/images/2018/04/Front-Controller-redirects-to-login-to-force-registered-customers.jpg)
 
-More info on [how to redirect with Prestashop (from front and back)](/2018/04/redirects-in-prestashop-1-7/).
+More info on [how to redirect with Prestashop (from front and back)]({% post_url 2018/2018-04-19-redirects-in-prestashop-1-7 %}).
 
 ### 4.3 Use the GET parameters from URL
 

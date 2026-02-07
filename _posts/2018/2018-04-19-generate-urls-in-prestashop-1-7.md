@@ -33,4 +33,4 @@ $this->context->link->getAdminLink('AdminModules')."&configure={$this->name}&mod
 
 ## How to redirect
 
-See [this article on how to redirect in Prestashop](/2018/04/redirects-in-prestashop-1-7/)
+See [this article on how to redirect in Prestashop]({% post_url 2018/2018-04-19-redirects-in-prestashop-1-7 %})

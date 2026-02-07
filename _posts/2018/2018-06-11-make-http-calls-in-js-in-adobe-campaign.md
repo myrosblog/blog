@@ -21,7 +21,7 @@ For any of the below calls, the URLs you want to call must be whitelisted in `/u
 </serverConf>
 ```
 
-*Note: if you are on a hosted instance, see the [tutorial to connect through SSH](/2019/02/enable-ssh-adobe-campaign) to execute maintenance on server.*
+*Note: if you are on a hosted instance, see the [tutorial to connect through SSH]({% post_url 2019/2019-02-14-enable-ssh-adobe-campaign %}) to execute maintenance on server.*
 
 If you don't whitelist your target URLs you'll get a JS Exception:
 ```console
@@ -161,4 +161,4 @@ HttpClientRequest.wait(requests);
 
 See [JSAPI execute](https://docs.campaign.adobe.com/doc/AC/en/jsapi/m-HttpClientRequest-execute.html) reference
 
-See this [tutorial to install JS library](/2018/10/use-javascript-libraries-in-adobe-campaign/) such as underscore or Moment JS in Adobe Campaign.
+See this [tutorial to install JS library]({% post_url 2018/2018-10-15-use-javascript-libraries-in-adobe-campaign %}) such as underscore or Moment JS in Adobe Campaign.

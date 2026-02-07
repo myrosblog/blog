@@ -21,4 +21,4 @@ Tools::redirectAdmin(Context::getContext()->link->getAdminLink(AdminDashboard::c
 
 ## How to generate an URL
 
-See [this article on how to generate an URL in Prestashop](/2018/04/generate-urls-in-prestashop-1-7/)
+See [this article on how to generate an URL in Prestashop]({% post_url 2018/2018-04-19-generate-urls-in-prestashop-1-7 %})

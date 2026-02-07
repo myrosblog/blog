@@ -123,4 +123,4 @@ As an alternative method, you can directly call another workflow with this JavaS
 NLWS.xtkWorkflow.PostEvent("myWorkflowInternalName", "signalActivityName", "", <variables var1={vars.var2}/>, false);
 ```
 
-Find more details about this on [the tutorial to call another workflow in Adobe Campaign](/2018/07/call-another-workflow-in-adobe-campaign/).
+Find more details about this on [the tutorial to call another workflow in Adobe Campaign]({% post_url 2018/2018-07-24-call-another-workflow-in-adobe-campaign %}).

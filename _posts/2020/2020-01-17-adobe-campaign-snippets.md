@@ -225,7 +225,7 @@ vars.filename = execCommand('mktemp')[1]+'-'+formatDate(new Date(), '%4Y-%2M-%2D
 
 ## JS: Asynchronous HTTP calls
 
-For details, please check [Async API calls in Adobe Campaign](/2021/01/async-api-calls-in-adobe-campaign)
+For details, please check [Async API calls in Adobe Campaign]({% post_url 2021/2021-01-08-async-api-calls-in-adobe-campaign %})
 
 ```js
 var records = ...; // must be set

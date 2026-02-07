@@ -15,8 +15,8 @@ categories: [salesforce,git,opensource]
 
 ### Prerequisites
 
-- Basic linux knowledge (check [LINUX cheatshet](/2018/12/unix-cheatsheet) for help)
-- Basic Salesforce knowledge (check [Apex cheatsheet](2021/06/salesforce-apex-cheatsheet) for help)
+- Basic linux knowledge (check [LINUX cheatshet]({% post_url 2018/2018-12-05-unix-cheatsheet %}) for help)
+- Basic Salesforce knowledge (check [Apex cheatsheet]({% post_url 2021/2021-06-10-salesforce-apex-cheatsheet %}) for help)
 - SFSC instance
 - SFSC User granted with permissions: ModifyMetadata (otherwise INSUFFICIENT_ACCESS error), Author Apex (otherwise "Entity type 'ApexClass' is not available in this organization" error)
 - Github.com account

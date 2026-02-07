@@ -88,4 +88,4 @@ exec('cp /etc/apache2/apache2.conf /sftp/[...]/', true) // copy to your ftp
 exec("cat /etc/apache2/envvars > /sftp/[...]/", true) // echo to a file
 ```
 
-Also, you can get the content of you serverConf.xml with [this tutorial](/2018/10/get-the-content-of-your-serverconf-xml-in-adobe-campaign/)
+Also, you can get the content of you serverConf.xml with [this tutorial]({% post_url 2018/2018-10-15-get-the-content-of-your-serverconf-xml-in-adobe-campaign %})

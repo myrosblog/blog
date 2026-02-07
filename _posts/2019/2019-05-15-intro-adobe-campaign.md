@@ -37,7 +37,7 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 - [Browsing Lists](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/starting-with-adobe-campaign/adobe-campaign-workspace.html#browsing-lists) - Add/Remove a field in a list, count records, sort, search
 - [Formats and Units](https://docs.adobe.com/content/help/en/campaign-classic/using/getting-started/starting-with-adobe-campaign/adobe-campaign-workspace.html#formats-and-units) - Date & time formats (US %2M/%2D/%4Y vs EN %2D/%2M/%4Y) and time units (s-seconds, mn-minute, h-hour, d-day)
 - [Format dates](https://docs.adobe.com/content/help/en/campaign-classic/using/sending-messages/content-management/formatting.html#date-display)
-- [Format Prices with NL.Locale](/2019/05/adobe-campaign-locale)
+- [Format Prices with NL.Locale]({% post_url 2019/2019-05-02-adobe-campaign-locale %})
 - [Folders organization Best Practices](https://helpx.adobe.com/campaign/kb/organization-folders-explorer.html)
 
 ## Basic objects
@@ -129,7 +129,7 @@ This list only concerns Adobe Campaign Classic (and not the web-based version *A
 - [Compare 2 files with diffchecker](https://www.diffchecker.com)
 - [Rename multiple files with regex, prefixes, etc, with Bulk Rename Utility](https://www.bulkrenameutility.co.uk)
 - [SMS Length Calculator on messente.com](https://messente.com/documentation/tools/sms-length-calculator)
-- [Find brands using Adobe Campaign with Google dorks](/2020/03/find-all-brands-using-adobe-campaign) - doc on [Google dorks](/2018/12/crack-and-hack-cheatsheet#google)
+- [Find brands using Adobe Campaign with Google dorks]({% post_url 2020/2020-03-09-find-all-brands-using-adobe-campaign %}) - doc on [Google dorks]({% post_url 2018/2018-12-14-crack-and-hack-cheatsheet %}#google)
 - [Facebook Sharing Debugger (Test og: meta sharing tags)](https://developers.facebook.com/tools/debug/sharing/)
 - [Online share-able collaborative text editor collabedit.com](http://collabedit.com/)
 - [Check CSS & HTML rules for Emails on caniemail.com](https://www.caniemail.com/)

@@ -31,7 +31,7 @@ var enumId = sqlGetDouble ('SELECT iEnumId FROM xtkEnum WHERE sName='+NL.SQL.esc
 
 PS: doc for `NL.SQL.escape` https://final-docs.campaign.adobe.com/doc/AC/en/jsapi/p-8.html
 
-See [NL.Locale to format prices tuto](/2019/05/adobe-campaign-locale)
+See [NL.Locale to format prices tuto]({% post_url 2019/2019-05-02-adobe-campaign-locale %})
 
 ##
 ```js

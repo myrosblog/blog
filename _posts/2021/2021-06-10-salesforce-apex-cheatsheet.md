@@ -132,7 +132,7 @@ response = http.send(request);
 System.debug(response.getBody());
 ```
 
-See [Marketing Cloud REST API](/2022/08/salesforce-marketing-cloud-rest-api).
+See [Marketing Cloud REST API]({% post_url 2022/2022-08-18-salesforce-marketing-cloud-rest-api %}).
 
 ## Schedule Apex Job
 

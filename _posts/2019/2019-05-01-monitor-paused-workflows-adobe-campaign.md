@@ -66,7 +66,7 @@ for each(var record in records.getElements()){
 }
 vars.htmlEmail += '</tbody></table>';
 ```
-*More details on the queryDef object on the [queryDef toolbox tutorial](/2018/08/use-querydef-the-database-toolkit-in-adobe-campaign).*
+*More details on the queryDef object on the [queryDef toolbox tutorial]({% post_url 2018/2018-08-03-use-querydef-the-database-toolkit-in-adobe-campaign %}).*
 
 ## Email activity
 

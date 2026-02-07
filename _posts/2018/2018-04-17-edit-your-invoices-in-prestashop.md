@@ -11,7 +11,7 @@ Have you ever wanted to modify an order or an invoice directly in Prestashop? Ti
 
 <!-- more -->
 
-> You can also view this [tuto to completely customize an Admin Controller from scratch, with your Custom SQL Table](/2018/05/create-an-admin-for-a-customized-sql-table/)
+> You can also view this [tuto to completely customize an Admin Controller from scratch, with your Custom SQL Table]({% post_url 2018/2018-05-28-create-an-admin-for-a-customized-sql-table %})
 
 ![](/assets/images/2018/04/Image-17.png)
 

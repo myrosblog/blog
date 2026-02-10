@@ -72,7 +72,10 @@ printenv | less # print env vars
 ls -l $(which python) # command substitution with $(cmd-here)
 passwd # update password for current user
 sudo passwd user_name # update password for user_name
-find . -name filename_here
+find . -name filename_here # find filename
+find /path -type f -mtime -7 # find files modified in the last 7 days
+wc file.txt # display count of: line word character
+wc -l file.txt # display only lines count. And -w for words, -c for chararacters
 shutdown -P # power off (default)
 shutdown -r # reboot
 shutdown -c # cancel shutdown
@@ -99,6 +102,17 @@ ls -l &> /dev/null # totally wipes output (i.e for silent CRON)
 echo $? # last return code. 0 is success, 126 is found but not executable, 127 is not found, any non-zero integer is failure
 ```
 [TLDP redirection](http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-3.html), [wiki exit status](https://en.wikipedia.org/wiki/Exit_status)
+
+### Bash loops
+
+```bash
+# Run a command every 2 minutes
+while true; do echo "$(date)"; command; sleep 120; done
+# Iterate over files in a directory:
+for file in /path/*; do echo "$file"; done
+# Process each line in a file:
+while read line; do echo "$line"; done < file.txt
+```
 
 ### Bash file
 

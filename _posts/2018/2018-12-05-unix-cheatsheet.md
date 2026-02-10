@@ -74,8 +74,9 @@ passwd # update password for current user
 sudo passwd user_name # update password for user_name
 find . -name filename_here # find filename
 find /path -type f -mtime -7 # find files modified in the last 7 days
-wc file.txt # display count of: line word character
-wc -l file.txt # display only lines count. And -w for words, -c for chararacters
+wc file.txt # display count of: lines words bytes
+wc -l file.txt # display only lines count. And -w for words, -m for characters, -c for bytes
+wc -L file.txt # display length of longest line
 shutdown -P # power off (default)
 shutdown -r # reboot
 shutdown -c # cancel shutdown

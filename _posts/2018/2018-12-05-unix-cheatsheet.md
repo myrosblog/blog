@@ -119,6 +119,24 @@ $ ./myfile login
 Logged in
 ```
 
+## Bash for DNS
+
+With `dig` and `whois`
+
+```bash
+# list DNS records
+$ dig jsonplaceholder.typicode.com
+jsonplaceholder.typicode.com. 240 IN    A       172.67.167.151
+jsonplaceholder.typicode.com. 240 IN    A       104.21.59.19
+
+$ whois jsonplaceholder.typicode.com
+contact:      administrative
+name:         Registry Customer Service
+organisation: VeriSign Global Registry Services
+[...]
+>>> Last update of whois database: 2026-02-10T02:05:47Z <<<
+```
+
 ## UNIX man
 The UNIX manual is divised into 10 sections:
 - [Section 1](https://linux.die.net/man/1/): user commands

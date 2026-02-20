@@ -50,7 +50,6 @@ This one is a little bit more complicated. Categories in wordpress allow us to b
 First we need a page with all categories. I reused this [very good tutorial on Jekyll categories](https://blog.webjeda.com/jekyll-categories/) where the idea is to have a `/categories.html` with a Jekyll standard loop {% raw %}`{% for category in page.categories %}`{% endraw %}.
 
 I also added this bit at the top and the bottom of each post, in order to display the categories of a post:
-![todo](/assets/images/2018/11/wordpress-to-jekyll-categories-display.jpg)
 {% raw %}```html
 {% for category in page.categories %}
   <a href="{{site.baseurl}}/categories?id={{category|slugize}}"

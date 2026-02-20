@@ -1,7 +1,11 @@
 ---
 title: Use queryDef and NLWS, the Database toolkits in Adobe Campaign (SQL/JSON/XML)
-redirect_from: /2018/08/use-querydef-the-database-toolkit-in-adobe-campaign/
+redirect_from: 
+  - /2018/08/use-querydef-the-database-toolkit-in-adobe-campaign/
+  - /2018/08/use-querydef-the-database-toolkit-in-adobe-campaign
+  - /2018/08/querydef-database-toolkit
 categories: [adobe campaign, javascript, linux, opensource]
+permalink: adobe-campaign/querydef-database-toolkit
 ---
 
 Use quick and reliable Adobe Campaign methods such as `NLWS.nmsDelivery.load("12435")`, `NLWS.nmsRecipient.create({ firstName:"John" })` and build complex XML E4X queries to go in details!
